@@ -4,6 +4,7 @@ gem 'rails', '3.1.0'
 
 gem 'sqlite3'
 gem 'haml'
+gem 'sass'
 gem 'json', '1.6.5'  
 gem 'ruby-debug19', :require => 'ruby-debug'
 

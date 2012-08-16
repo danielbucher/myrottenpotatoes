@@ -4,9 +4,14 @@ gem 'rails', '3.1.0'
 
 gem 'sqlite3'
 gem 'haml'
+gem 'json', '1.6.5'  
+gem 'ruby-debug19', :require => 'ruby-debug'
+
+gem 'ruby-tmdb'
 
 group :development, :test do
-  gem 'ruby-debug19'
+  gem 'rspec-rails'
+  gem 'ZenTest'
   gem 'cucumber-rails'
   gem 'cucumber-rails-training-wheels' # some pre-fabbed step definitions  
   gem 'database_cleaner' # to clear Cucumber's test database between runs

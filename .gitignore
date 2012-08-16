@@ -12,3 +12,5 @@ tmp/
 
 .bak
 .project
+.settings/
+Gemfile.lock
